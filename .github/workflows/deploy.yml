@@ -36,6 +36,11 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Check bundle size
+        run: |
+          npm run build
+          npx bundlesize
+
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v3

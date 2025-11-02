@@ -1,4 +1,5 @@
 function App() {
+  console.log('testing lint')
   return (
     <>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-12 gap-4">
@@ -45,7 +46,7 @@ function App() {
         <div className="col-span-4 bg-teal-200 p-4">Footer</div>
       </div>
     </>
-  );
+  )
 }
 
-export default App;
+export default App

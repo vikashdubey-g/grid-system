@@ -2,6 +2,7 @@ function App() {
 
   function sayName(){
     console.log("Hello World")
+    return
   }
   
   return (

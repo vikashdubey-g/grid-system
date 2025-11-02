@@ -36,6 +36,22 @@ export default [
       'no-console': 'error', // Change from 'warn' to 'error'
       'no-unused-vars': 'error', // Also make this strict
       'react/prop-types': 'off',
+      'no-debugger': 'error',
+      'no-alert': 'warn',
+      'no-var': 'error', // Use let/const instead
+      'prefer-const': 'error', // Use const when possible
+      eqeqeq: ['error', 'always'], // Use === instead of ==
+      curly: ['error', 'all'], // Always use curly braces
+      'no-duplicate-imports': 'error',
+      'no-empty': 'error',
+      'no-empty-function': 'warn',
+
+      // React specific
+      'react/jsx-key': 'error', // Require key in lists
+      'react/no-array-index-key': 'warn', // Avoid using index as key
+      'react/self-closing-comp': 'error', // <Component /> not <Component></Component>
+      'react-hooks/rules-of-hooks': 'error',
+      'react-hooks/exhaustive-deps': 'warn',
     },
   },
 ]

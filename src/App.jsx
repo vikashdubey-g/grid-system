@@ -1,23 +1,19 @@
 function App() {
-  console.log('testing lint')
-  console.log('testing lint')
-  console.log('testing lint')
-  console.log('testing lint')
   return (
     <>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-12 gap-4">
-        <div class="bg-blue-200 p-4">1</div>
-        <div class="bg-blue-200 p-4">2</div>
-        <div class="bg-blue-200 p-4">3</div>
-        <div class="bg-blue-200 p-4">4</div>
-        <div class="bg-blue-200 p-4">5</div>
-        <div class="bg-blue-200 p-4">6</div>
-        <div class="bg-blue-200 p-4">7</div>
-        <div class="bg-blue-200 p-4">8</div>
-        <div class="bg-blue-200 p-4">9</div>
-        <div class="bg-blue-200 p-4">10</div>
-        <div class="bg-blue-200 p-4">11</div>
-        <div class="bg-blue-200 p-4">12</div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-12 gap-4">
+        <div className="bg-blue-200 p-4">1</div>
+        <div className="bg-blue-200 p-4">2</div>
+        <div className="bg-blue-200 p-4">3</div>
+        <div className="bg-blue-200 p-4">4</div>
+        <div className="bg-blue-200 p-4">5</div>
+        <div className="bg-blue-200 p-4">6</div>
+        <div className="bg-blue-200 p-4">7</div>
+        <div className="bg-blue-200 p-4">8</div>
+        <div className="bg-blue-200 p-4">9</div>
+        <div className="bg-blue-200 p-4">10</div>
+        <div className="bg-blue-200 p-4">11</div>
+        <div className="bg-blue-200 p-4">12</div>
       </div>
       <div className="grid grid-cols-12 gap-4">
         <div className="col-span-12 bg-purple-200 p-4">Full Width Header</div>

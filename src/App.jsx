@@ -1,5 +1,6 @@
 function App() {
   console.log('testing lint')
+  console.log('testing lint')
   return (
     <>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-12 gap-4">

@@ -1,4 +1,9 @@
 function multiply(a, b) {
   return a * b;
 }
-export { multiply };
+
+function divide(a, b) {
+  return a / b;
+}
+
+export { multiply, divide };

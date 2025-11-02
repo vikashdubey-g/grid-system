@@ -1,13 +1,4 @@
 function App() {
-  function sayName() {
-    console.log("Hello World");
-    return;
-  }
-
-  function addNumbers(a, b) {
-    return a + b;
-  }
-
   return (
     <>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 lg:grid-cols-12 gap-4">

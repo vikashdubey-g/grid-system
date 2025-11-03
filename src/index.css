@@ -30,9 +30,3 @@ body {
   color: black;
   min-height: 100vh;
 }
-
-.parent {
-  display: grid;
-  gap: 12px;
-  grid-template-columns: repeat(6, 1fr);
-}

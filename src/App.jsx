@@ -1,14 +1,18 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import CardPractice from './pages/CardPractice'
+import DayOne from './pages/gpt/DayOne'
+import DayTwo from './pages/gpt/DayTwo'
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/grid-system">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/card-practice" element={<CardPractice />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/card-practice" element={<CardPractice />} />
+          <Route exact path="/day-one" element={<DayOne />} />
+          <Route exact path="/day-two" element={<DayTwo />} />
         </Routes>
       </BrowserRouter>
     </>

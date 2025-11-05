@@ -4,6 +4,7 @@ import CardPractice from './pages/CardPractice'
 import DayOne from './pages/gpt/DayOne'
 import DayTwo from './pages/gpt/DayTwo'
 import DayThree from './pages/gpt/DayThree'
+import DayFour from './pages/gpt/DayFour'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/day-one" element={<DayOne />} />
           <Route exact path="/day-two" element={<DayTwo />} />
           <Route exact path="/day-three" element={<DayThree />} />
+          <Route exact path="/day-four" element={<DayFour />} />
         </Routes>
       </BrowserRouter>
     </>

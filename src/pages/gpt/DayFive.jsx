@@ -22,7 +22,7 @@ const DayFive = () => {
         {colors.map((bg, index) => (
           <div
             key={bg}
-            className={`${bg} p-4 shadow-md rounded-lg text-gray-700 font-medium hover:scale-105 transition-transform duration-200 grid grid-rows-[1fr_auto] `}
+            className={`${bg} p-4 shadow-md rounded-lg text-gray-700 font-medium hover:scale-105 transition-transform duration-200 grid grid-rows-[1fr_auto]`}
           >
             <div>
               <h2 className="text-lg font-semibold mb-2">

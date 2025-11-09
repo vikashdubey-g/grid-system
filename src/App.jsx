@@ -8,6 +8,7 @@ import DayFour from './pages/gpt/DayFour'
 import DayFive from './pages/gpt/DayFive'
 import PageOne from './pages/sampleLayouts/PageOne'
 import FrUnit from './pages/FrUnit'
+import DaySix from './pages/gpt/DaySix'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/day-three" element={<DayThree />} />
           <Route exact path="/day-four" element={<DayFour />} />
           <Route exact path="/day-five" element={<DayFive />} />
+          <Route exact path="/day-six" element={<DaySix />} />
           {/* Layouts */}
           <Route exact path="/page-one" element={<PageOne />} />
           {/* FR Unit */}
